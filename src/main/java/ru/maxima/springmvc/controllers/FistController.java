@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class FistController {
-
     // аннотация служет для рутироания запроса
     @GetMapping("/hello")
     public String helloPage(@RequestParam("name")String nameFromParameter,
