@@ -20,7 +20,6 @@ public class FistController {
         model.addAttribute("name", nameFromParameter);
         return "first/hello";
     }
-
     @GetMapping("/goodbye")
     public String goodbyePage() {
         return "first/goodbye";
